@@ -1,6 +1,4 @@
 <?php
-//middleware de verificación
-
     function mw_estaLogueado($rol){
         if( isset($_SESSION["userLogged"]) && $_SESSION["userLogged"] == true){
           if ($rol=='CLT') {

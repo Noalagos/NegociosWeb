@@ -1,5 +1,5 @@
 <?php
-   //data access object
+   //data accesos a objetos
    require_once("libs/parameters.php");
 
    // ------------------------

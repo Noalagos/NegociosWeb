@@ -1,4 +1,5 @@
 <?php
+
   require_once("libs/template_engine.php");
   function run(){
     http_response_code(404);
@@ -12,7 +13,7 @@
                             )
                );
   }
- 
+
 
   run();
 ?>

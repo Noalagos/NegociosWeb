@@ -19,7 +19,7 @@
         $viewsPath = "views/";
         $fileTemplate = $vista.".view.tpl";
         $htmlContent = "";
-        //die($layoutFile);
+        //muerte de ($layoutFile);
         if(file_exists($viewsPath.$layoutFile)){
             $htmlContent = file_get_contents($viewsPath.$layoutFile);
             if(file_exists($viewsPath.$fileTemplate)){
@@ -157,7 +157,7 @@
 
         $tag_regexp = "/" . join( "|", $regexp_array ) . "/";
 
-        //split the code with the tags regexp
+        //separa el codigo con la etiquta regexp
         $template_code = preg_split ( $tag_regexp, $htmlTemplate, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY );
 
         return $template_code;
