@@ -1,5 +1,4 @@
 <?php
-
     session_start();
 
     require_once("libs/utilities.php");
@@ -15,14 +14,66 @@
     require_once("controllers/verificar.mw.php");
     require_once("controllers/site.mw.php");
 
-
+    if(isset($_SESSION["userRol"])){
+      mw_estaLogueado($_SESSION["userRol"]);
+    }else{
+      mw_estaLogueado("");
+    }
     //Este switch se encarga de todo el enrutamiento
+
     switch($pageRequest){
         case "home":
             //llamar al controlador
             require_once("controllers/home.control.php");
             break;
+        case "nosotros":
+            require_once("controllers/nosotros.control.php");
+            break;
+        case "services":
+            require_once("controllers/services.control.php");
+            break;
+        case "contactus":
+            require_once("controllers/contactus.control.php");
+            break;
+        case "registro":
+            require_once("controllers/registro.control.php");
+            break;
+        case "productos":
+            require_once("controllers/productos.control.php");
+            break;
+        case 'perfil':
+            require_once("controllers/perfil.control.php");
+          break;
+        case 'carrito':
+            require_once("controllers/carrito.control.php");
+          break;
+        case 'compras':
+            require_once("controllers/compras.control.php");
+          break;
+        case 'productosAdmin':
+            require_once("controllers/productosAdmin.control.php");
+        break;
+        case 'carritoVacio':
+            require_once("controllers/carritoVacio.control.php");
+        break;
+        case 'comprasDetalles':
+            require_once("controllers/compras.control.php");
+          break;
+        case 'comprasVacia':
+            require_once("controllers/comprasVacia.control.php");
+          break;
+        case 'usuarioAdmin':
+            require_once("controllers/usuarioAdmin.control.php");
+          break;
+        case 'agregarProducto':
+            require_once("controllers/agregarProducto.control.php");
+          break;
+        case 'usuarioAdminVacio':
+            require_once("controllers/usuarioAdminVacio.control.php");
+          break;
+
         default:
             require_once("controllers/error.control.php");
+
     }
 ?>
