@@ -1,0 +1,1833 @@
+body{
+  font-family: "Lato";
+  font-size:16px;
+  font-size: 100%;
+  font-size: 1em;
+  margin:0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+ /* BANNER INFORMACION */
+
+ .bannerGeneral{
+   position: relative;
+   bottom: 2.5em;
+   background-color: #6c89b7;
+   padding-top: 0.2em;
+ }
+
+ .bannerGeneral p{
+   color: black;
+   text-align: center;
+   position: relative;
+   padding-left: 1em;
+   bottom: 0.6em;
+   font-family: "Lato" sans-serif;
+   font-weight: lighter;
+   font-size: 26px;
+ }
+
+
+ .Footer{
+   position: absolute;
+   background-color: #424242;
+   top: 76.3em;
+   width: 100%;
+   height: 13%;
+ }
+ .Footer p{
+   position: absolute;
+   color: #ffffff;
+   top: 2.2em;
+   left: 5%;
+   font-size: 12px;
+ }
+
+/* INICIO */
+
+.HomeHeader{
+  background-color: #6c89b7;
+}
+
+.LogoHome{
+  position: relative;
+  left: 14em;
+  top: 1em;
+  width: 30%;
+  min-height: 150px;
+  background-image: url("../imgs/logos.png");
+  background-repeat: no-repeat;
+  background-size:65%;
+  -webkit-transition: 0.2s min-height ease;
+  -moz-transition: 0.2s min-height ease;
+  -o-transition: 0.2s min-height ease;
+  transition: 0.2s min-height ease;
+}
+
+.HomeHeader .Menu{
+    position: relative;
+    opacity: 1;
+    height: 39px;
+    text-align: center;
+    padding: 0px  ;
+    margin: 0px;
+    bottom: 5.3em;
+}
+
+.HomeHeader .Menu li{
+  position: relative;
+    display: inline;
+    left: 10em
+}
+.HomeHeader .Menu li a{
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    font-family: "Lato" sans-serif;
+    font-size: 13px;
+    color:white;
+    text-shadow: 0 1 0.125em #000;
+    position: relative;
+    transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+	  padding-bottom: 3px;
+}
+
+.HomeHeader .Menu li a:after{
+    content: '';
+	  display: block;
+	  margin: auto;
+	  height: 3px;
+	  width: 0px;
+	  background: transparent;
+	  transition: width .5s ease, background-color .5s ease;
+}
+
+.HomeHeader .Menu li a:hover:after{
+    width: 100%;
+	  background: white;
+}
+
+.Content .WelcomeImg{
+  position: absolute;
+  top: 9.4em;
+  width: 100%;
+  height: 503px;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../imgs/bannerr.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-image 0.3s linear;
+  -o-transition: background-image 0.3s linear;
+  -moz-transition: background-image 0.3s linear;
+  -webkit-transition: background-image 0.3s linear;
+}
+
+
+.Content .WelcomeImg p{
+  position: relative;
+  color: #ffffff;
+  font-family: "Lato" sans-serif;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  top: 1em;
+
+}
+
+.Content .InfoHome{
+  position: absolute;
+  top: 40.8em;
+  height: 100%;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.Content .InfoHome{
+  text-align: center;
+}
+
+.Content .InfoHome li{
+  position: relative;
+  display: inline;
+  padding: 7em;
+  top: 16em;
+  text-decoration: none;
+  font-family: "Lato" sans-serif;
+}
+
+.Content .InfoHome #time{
+  position: relative;
+  right: 1em;
+}
+
+.Content .InfoHome #work{
+  position: relative;
+  left: 0.3em;
+}
+
+.Content .InfoHome #place{
+  position: relative;
+  left: 1.4em;
+}
+
+.Content .InfoHome .Time p, .Gear p, .Place p{
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.Content .InfoHome .Time:hover, .Gear:hover, .Place:hover{
+  background-color: #ffbc00;
+}
+
+
+.Content .InfoHome .Time{
+  position: absolute;
+  top: 5em;
+  left: 18.2em;
+  width: 150px;
+  height: 150px;
+  background-image: url("../imgs/time.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.Content .InfoHome .Gear{
+  position: absolute;
+  top: 5em;
+  left: 37.6em;
+  width: 150px;
+  height: 150px;
+  background-image: url("../imgs/gear.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.Content .InfoHome .Place{
+  position: absolute;
+  top: 5em;
+  left: 57em;
+  width: 150px;
+  height: 150px;
+  background-image: url("../imgs/place.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.Content .InfoHome .Time p{
+  position: relative;
+  top: 15em;
+  left: 0.6em;
+  width: 500%;
+  text-align: justify;
+  color: black;
+  transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+}
+
+.Content .InfoHome .Time:hover p{
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  top: 15em;
+  left: 0.6em;
+  width: 500%;
+  text-align: justify;
+  transition-delay:0s;
+}
+
+.Content .InfoHome .Gear p{
+  position: relative;
+  top: 15em;
+  right: 18.8em;
+  width: 500%;
+  text-align: justify;
+  color: black;
+  transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+}
+
+.Content .InfoHome .Gear:hover p{
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  top: 15em;
+  right: 18.8em;
+  width: 500%;
+  text-align: justify;
+    transition-delay:0s;
+}
+
+.Content .InfoHome .Place p{
+  position: relative;
+  top: 15em;
+  right: 38.2em;
+  width: 500%;
+  text-align: justify;
+  color: black;
+  transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+}
+
+.Content .InfoHome .Place:hover p{
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  top: 15em;
+  right: 38.2em;
+  width: 500%;
+  text-align: justify;
+  transition-delay:0s;
+}
+
+.Footer{
+  position: absolute;
+  background-color: #424242;
+  top: 76.3em;
+  width: 100%;
+  height: 13%;
+}
+
+.Footer .Twitter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1.6em;
+  right: 9em;
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.Footer p{
+  position: absolute;
+  color: #ffffff;
+  top: 2.2em;
+  left: 5%;
+  font-size: 12px;
+}
+
+/* SOBRE NOSOTROS */
+
+.ContentAbout .imagenSobreNososotros{
+  position: absolute;
+  top: 14em;
+  width: 100%;
+  height: 503px;
+  background-color: #fff;
+  background-image: url("../imgs/nosotros.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-image 0.3s linear;
+  -o-transition: background-image 0.3s linear;
+  -moz-transition: background-image 0.3s linear;
+  -webkit-transition: background-image 0.3s linear;
+}
+
+.contenedor{
+  position: relative;
+    width: 1090px;
+    margin: auto;
+    color: black;
+    font-size: 15px;
+    padding: 20px 15px 50px 50px;
+    top: 30em;
+}
+
+/*Pesntñas*/
+#pest {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#contenidopest{
+   text-align: justify;
+    clear: both;
+    background: #e7e7e7;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    width: 1080px;
+}
+
+.form{
+  position: absolute;
+  left: 30%;
+  top: 42em;
+  background-color: #fff;
+  height: 500px;
+  margin-top: 50px;
+}
+/* GALERIA */
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+.slides {
+    padding: 0;
+    width: 1109px;
+    height: 620px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 6em;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 1109px;
+    height: 520px;
+    display: block;
+    position: absolute;
+    box-shadow: 0.2em 0.2em 0.50em;
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.navegando label {
+    width: 100px;
+    height: 83.9%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0.5;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 126pt;
+    text-align: center;
+    line-height: 490px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(0, 0, 0, 0.68);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .navegando label { opacity: 0.3; }
+
+.navegando label:hover { opacity: 1; }
+
+.navegando .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.navegando-mar {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.navegando-mar .navegando-mars {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navegando-mar .navegando-mars:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-uno:checked ~ .navegando-mar label#img-mar-uno,
+input#img-dos:checked ~ .navegando-mar label#img-mar-dos,
+input#img-tres:checked ~ .navegando-mar label#img-mar-tres,
+input#img-cuatro:checked ~ .navegando-mar label#img-mar-cuatro,
+	background: rgba(1, 0, 4, 0.8);
+}
+
+
+/*-------LOGIN -------*/
+
+/* Login Contenedor */
+#loginContainer {
+    position:relative;
+    float:right;
+    font-size:14px;
+}
+
+/* Login Boton */
+#loginButton {
+    display:inline-block;
+    float:right;
+    right: 7.3em;
+    top: 8.2em;
+    background:#E0E0E0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+    transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -webkit-transition: background 0.3s linear;
+}
+
+
+#loginButton span {
+    color:#445058;
+    font-size:14px;
+    padding:7px 20px 9px 16px;
+    display:block
+}
+
+#loginButton:hover {
+    background:#BDBDBD
+}
+
+/* boton de ingresar */
+#signUpButton {
+    display:inline-block;
+    float:right;
+    left: 4em;
+    top: 8.2em;
+    background:#E0E0E0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+    transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -webkit-transition: background 0.3s linear;
+}
+
+#signUpButton span {
+    color:#445058;
+    font-size:14px;
+    padding:7px 17px 9px 14px;
+    display:block;
+}
+
+#loginContainer a:link{
+      text-decoration: none;
+      top:8.2em;
+}
+
+#signUpButton:hover {
+    background:#BDBDBD
+}
+
+/* Login caja */
+#loginBox {
+    position:absolute;
+    top:8.2em;
+    right: 7.3em;
+    top: 8.2em;
+    display:none;
+    z-index:29;
+}
+
+/* caundo al boton se le dio click */
+#loginButton.active {
+    border-radius:3px 3px 0 0;
+}
+
+#loginButton.active span {
+    background-position:53px -76px;
+}
+
+/*forma de login */
+#loginForm {
+    width:248px;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    margin-top:-1px;
+    background:#E0E0E0;
+    padding:6px;
+}
+
+#loginForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+    top:8.2em;
+}
+
+fieldset#body {
+    background:#fff;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    padding:10px 13px;
+    margin:0;
+}
+
+#body label {
+    color:#3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body fieldset label {
+    font-family: "Lato";
+    font-size: 13px;
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+
+#loginForm input {
+    font-family: "Lato";
+    font-size: 13px;
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+
+}
+
+/* logeando en boton */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:#339cdf;
+    color:#fff;
+    padding:7px 10px 8px 10px;
+    text-shadow:0px -1px #278db8;
+    border:1px solid #339cdf;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px;
+}
+
+/* si sé a olvidado la contraseña */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:5px 0 4px 0;
+}
+
+#loginForm a {
+    color:#3a454d;
+    text-shadow:1px 1px #fff;
+    font-size:14px;
+}
+
+input:focus {
+    outline:none;
+}
+
+/* vista LAYOUT 2 - boton de salir usuario */
+
+#perfilButton {
+  font-family: "Lato";
+    display:inline-block;
+    float:right;
+    right: 7.3em;
+    top: 1em;
+    background:#E0E0E0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+    transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -webkit-transition: background 0.3s linear;
+}
+
+/* Perfil de boton de Texto */
+#perfilButton span {
+    color:#445058;
+    font-size:14px;
+    padding:7px 20px 9px 16px;
+    display:block
+    top:8.2em;
+}
+
+#perfilButton:hover {
+    background:#BDBDBD
+}
+
+#loginContainer button {
+font-family: "Lato";
+position: absolute;
+top: 9.9em;
+right: 0.5em;
+text-align: center;;
+width: 90px;
+height: 31.5px;
+background:#E0E0E0;
+color:#445058;
+padding:7px 10px 8px 10px;
+border:1px;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px;
+transition: background 0.3s linear;
+-o-transition: background 0.3s linear;
+-moz-transition: background 0.3s linear;
+-webkit-transition: background 0.3s linear;
+}
+
+#loginContainer button:hover{
+  background:#BDBDBD;
+}
+
+/* Diseño de CARRITO */
+
+#scButton {
+    display:inline-block;
+    float:right;
+    right: 7.65em;
+    top: 1.02em;
+    height: 33px;
+    background:#E0E0E0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+    transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -webkit-transition: background 0.3s linear;
+}
+
+/* Logeado Boton Texto */
+#scButton span {
+    color:#445058;
+    font-size:14px;
+    padding:7px 20px 9px 16px;
+    display:block
+  }
+
+#scButton:hover {
+    background:#BDBDBD
+}
+
+/* Boton de texto de login*/
+#sc1Button {
+    display:inline-block;
+    float:right;
+    right: 2.3em;
+    top: 1.02em;
+    height: 33px;
+    background:#E0E0E0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+    transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -webkit-transition: background 0.3s linear;
+}
+
+#sc1Button span {
+    color:#445058;
+    font-size:14px;
+    padding:7px 20px 9px 16px;
+    display:block
+    }
+
+#sc1Button:hover {
+    background:#BDBDBD
+}
+
+/* Registro */
+
+.FormRegistro{
+  position: absolute;
+  left: 32%;
+  top: 12em;
+  height: 340px;
+  max-width: 390px;
+  margin-top: 50px;
+  padding-left: 3em;
+  padding-right: 4.5em;
+  background-color: #EEEEEE;
+  border-radius: 0.5em;
+}
+
+.FormRegistro label{
+  font-family: "Lato";
+  font-weight: normal;
+  font-size: 13px;
+  color: #212121;
+}
+
+.FormRegistro ul {
+    width:750px;
+    list-style-type:none;
+	margin:0px;
+  margin-top: 1.2em;
+  margin-left: 1em;
+	padding:0px;
+}
+
+.FormRegistro li{
+	padding:12px;
+	position:relative;
+}
+
+.FormRegistro input {
+position: absolute;
+  width:190px;
+  padding:5px 8px;
+  display: block;
+  left: 11em;
+  bottom: 0.3em;
+}
+
+.FormRegistro input{
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #000;
+font-family: "Lato";
+font-size: 13px;
+padding-right:30px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+
+.FormRegistro button {
+position: relative;
+font-family: "Lato";
+left: 17%;
+top: 1.5em;
+text-align: center;;
+width: 120px;
+height: 32px;
+background:#0277BD;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #0277BD;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Productos */
+
+.listadoProductos .produclist{
+  position: relative;
+  top: 2em;
+  display:inline-block;
+  margin:0.5em 0.5em 0.5em;
+  float:left;
+  width:13.7em;
+  height:29em;
+  text-align:center;
+  font-size: 13px;
+}
+
+.listadoProductos .produclist p{
+  position: relative;
+    font-family: "Lato" sans-serif;
+    font-weight: bold;
+  bottom: 0.5em;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.listadoProductos .produclist input{
+  font-family: "Lato";
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 5.8em;
+  right: 3em;
+  text-align: center;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius:1px;
+  color: #000;
+  font-size: 12px;
+}
+
+.listadoProductos .produclist button {
+position: relative;
+top: 3em;
+left: 0.5em;
+font-family: "Lato";
+font-size: 13px;
+text-align: center;;
+width: 130px;
+height: 30px;
+background:#0277BD;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #0277BD;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px;
+}
+
+.listadoProductos .produclist a{
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.listadoProductos .produclist a:hover{
+  background-color: #F44336;
+}
+
+/* Administrador Listado Productos */
+.listadoProductos .produclistAdmin{
+  position: relative;
+    top: 2em;
+  margin:0.5em 0.5em 0.5em;
+  float:left;
+  width:19.5em;
+  height:30em;
+  text-align:center;
+  font-size: 13px;
+}
+
+.listadoProductos .produclistAdmin p{
+  position: relative;
+  font-family: "Lato" sans-serif;
+  font-weight: bold;
+  top: 0.3em;
+  right: 5em;
+  margin-top: 1em;
+  transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+}
+
+.listadoProductos .produclistAdmin input{
+  font-family: "Lato";
+  width: 120px;
+  position: absolute;
+  left: 13.5em;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius:1px;
+  color: #000;
+  font-size: 13px;
+}
+
+.listadoProductos .produclistAdmin select{
+  width: 122px;
+  position: absolute;
+  left: 13.5em;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius:1px;
+  color: #000;
+  font-family: "Lato";
+  font-size: 13px;
+}
+
+.listadoProductos .produclistAdmin button {
+position: relative;
+font-family: "Lato";
+left: 50%;
+font-size: 13px;
+text-align: center;;
+width: 100px;
+height: 30px;
+background:#0277BD;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #0277BD;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px;
+}
+
+
+/* Filtro de busquedad Productos */
+.formBusqueda{
+  position: absolute;
+  top: 14em;
+  left: 1em;
+}
+
+.formBusqueda ul {
+    width:750px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.formBusqueda li{
+	padding:12px;
+	position:relative;
+
+}
+
+.formBusqueda input {
+  font-family: "Lato";
+  height:20px;
+  width:120px;
+  padding:5px 8px;
+}
+
+.formBusqueda input{
+
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #000;
+font-size: 12px;
+padding-right:30px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+
+.formBusqueda button {
+position: relative;
+  font-family: "Lato";
+left: 23%;
+bottom: 4.2em;
+text-align: center;;
+width: 100px;
+height: 32px;
+background:#339cdf;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #339cdf;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px;
+}
+
+.formBusqueda #boton2 {
+position: relative;
+  font-family: "Lato";
+left: 38%;
+bottom: 7.5em;
+text-align: center;;
+width: 150px;
+height: 32px;
+background:#339cdf;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #339cdf;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Perfil formulario*/
+.formActualizarUsuario{
+  position: absolute;
+  left: 32%;
+  top: 12em;
+  height: 350px;
+  max-width: 390px;
+  margin-top: 50px;
+  padding-left: 3em;
+  padding-right: 3.5em;
+  background-color: #EEEEEE;
+  border-radius: 0.5em;
+}
+
+.formActualizarUsuario label{
+  font-family: "Lato";
+  font-weight: normal;
+  font-size: 13px;
+  color: #212121;
+}
+
+.formActualizarUsuario ul {
+    width:750px;
+    list-style-type:none;
+	margin:0px;
+  margin-top: 1.2em;
+  margin-left: 1em;
+	padding:0px;
+}
+
+.formActualizarUsuario li{
+	padding:12px;
+	position:relative;
+}
+
+.formActualizarUsuario input {
+position: absolute;
+  width:160px;
+  padding:5px 8px;
+  display: block;
+  left: 10em;
+  bottom: 0.3em;
+}
+
+.formActualizarUsuario input{
+
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #000;
+font-family: "Lato";
+font-size: 14px;
+padding-right:30px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+
+.formActualizarUsuario #btnINA{
+  width: 140px;
+  background: #F44336;
+  border:1px solid #F44336;
+}
+
+.formActualizarUsuario button {
+position: relative;
+font-family:"Lato";
+top: 0.8em;
+left: 2em;
+text-align: center;;
+width: 120px;
+height: 32px;
+background:#339cdf;
+color:#fff;
+padding:7px 10px 8px 10px;
+border:1px solid #339cdf;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px;
+}
+
+/* Carretilla */
+.carritoGeneral{
+position: relative;
+bottom: 2em;
+padding-left: 21.3em;
+}
+
+.carritoGeneral td{
+  padding-left: 3em;
+}
+
+.carritoGeneral #imga{
+    background-color: #90A4AE;
+}
+
+.carritoGeneral #cont{
+  background-color: #ECEFF1;
+  width: 52%;
+}
+
+.carritoGeneral #cont2{
+  background-color: #ECEFF1;
+  width: 79%;
+}
+
+.carritoGeneral #elim{
+    background-color: #ECEFF1;
+    width: 26.8%;
+}
+
+.carritoGeneral button {
+position: relative;
+font-family:"Lato";
+text-align: center;;
+width: 80px;
+background: #F44336;
+border:1px solid #F44336;
+height: 32px;
+color:#fff;
+box-shadow:none;
+cursor:pointer;
+border-radius: 0.2em;
+}
+
+.factura{
+  position: relative;
+  right: 0.5em;
+}
+
+.totales{
+  position: relative;
+  bottom: 3em;
+  background-color: #ECEFF1;
+  width: 55%;
+  border-radius: 0.3em;
+}
+
+.imagenCarritoVacio{
+  position: relative;
+  padding-left: 31em;
+  bottom: 1em;
+}
+
+.imagenComprasVacias{
+  position: relative;
+  padding-left: 34.5em;
+  bottom: 1em;
+  opacity: 0.7;
+}
+
+.textoVacioCompras{
+  position: relative;
+  font-family: "Lato";
+  padding-left: 24.2em;
+  text-align: center;
+  color: #757575;
+  width: 40%;
+  font-size: 17px;
+}
+
+.textoVacioCompras a{
+  text-decoration: none;
+  color: #757575;
+}
+
+
+.textoVacio{
+  position: relative;
+  bottom: 1em;
+  font-family: "Lato";
+  padding-left: 24.2em;
+  text-align: center;
+  color: #757575;
+  width: 40%;
+  font-size: 17px;
+}
+
+.textoVacio a{
+  text-decoration: none;
+  color: #757575;
+}
+/* COMPRAS LISTADO */
+
+.Compras #arriba{
+    background-color: #607D8B;
+    color: white;
+    font-size: 16px;
+}
+
+
+.Compras{
+  background-color: #ECEFF1;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.Compras button {
+position: relative;
+font-family:"Lato";
+text-align: center;;
+width: 100px;
+background: #0277BD;
+border:1px solid #0277BD;
+height: 32px;
+color:#fff;
+box-shadow:none;
+cursor:pointer;
+border-radius: 0.2em;
+}
+
+.butonRegreso button {
+  position: relative;
+  left: 43.4em;
+  bottom: 1em;
+  font-family:"Lato";
+  text-align: center;;
+  width: 200px;
+  background: #0277BD;
+  border:1px solid #0277BD;
+  height: 32px;
+  color:#fff;
+  box-shadow:none;
+  cursor:pointer;
+  border-radius: 0.2em;
+}
+
+/* LISTADO DE USUARIOS */
+
+.usuarios #arriba{
+    background-color: #607D8B;
+    color: white;
+    font-size: 15px;
+}
+
+.usuarios{
+  background-color: #ECEFF1;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.usuarios #INA{
+position: relative;
+font-family:"Lato";
+text-align: center;;
+width: 130px;
+background: #0277BD;
+border:1px solid #0277BD;
+height: 32px;
+color:#fff;
+box-shadow:none;
+cursor:pointer;
+border-radius: 0.2em;
+}
+
+.usuarios #INA span{
+  display: none;
+}
+.usuarios #INA:after {
+  content: 'Activar';
+}
+
+.usuarios #ACT{
+position: relative;
+font-family:"Lato";
+text-align: center;;
+width: 130px;
+background: #F44336;
+border:1px solid #F44336;
+height: 32px;
+color:#fff;
+box-shadow:none;
+cursor:pointer;
+border-radius: 0.2em;
+}
+
+.usuarios #ACT span{
+  display: none;
+}
+.usuarios #ACT:after {
+  content: 'Desactivar';
+}
+
+/* PRODUCTOS AÑADIR */
+
+.formProducto{
+  position: absolute;
+  left: 32%;
+  top: 12em;
+  height: 340px;
+  max-width: 390px;
+  margin-top: 50px;
+  padding-left: 3em;
+  padding-right: 4.5em;
+  background-color: #EEEEEE;
+  border-radius: 0.5em;
+}
+
+.formProducto label{
+  font-family: "Lato";
+  font-weight: normal;
+  font-size: 13px;
+  color: #212121;
+}
+
+.formProducto ul {
+    width:750px;
+    list-style-type:none;
+	margin:0px;
+  margin-top: 1.2em;
+  margin-left: 1em;
+	padding:0px;
+}
+
+.formProducto li{
+	padding:12px;
+	position:relative;
+}
+
+.formProducto input {
+position: absolute;
+  height:20px;
+  width:80px;
+  padding:5px 8px;
+  display: block;
+  left: 11em;
+  bottom: 0.3em;
+}
+
+.formProducto #LABELNOMBRE input{
+  height:20px;
+  width:200px;
+  padding:5px 8px;
+  display: block;
+  left: 11em;
+  bottom: 0.3em;
+}
+
+.formProducto input{
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #000;
+font-family: "Lato";
+font-size: 13px;
+padding-right:4px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+
+.formProducto button {
+position: relative;
+font-family: "Lato";
+left: 7.2%;
+top: 1.5em;
+text-align: center;;
+width: 120px;
+height: 32px;
+background:#0277BD;
+color:#fff;
+padding:7px 10px 8px 10px;
+text-shadow:0px -1px #278db8;
+border:1px solid #0277BD;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+margin:0 12px 0 0;
+cursor:pointer;
+border-radius: 0.2em;
+*padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+.formProducto select{
+  width:93px;
+  height: 33px;
+  position: relative;
+  left: 6.66em;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius:1px;
+  color: #000;
+  font-family: "Lato";
+  font-size: 13px;
+}
+
+.formProducto #LABELDISTINTO input{
+  border:0px solid #aaa;
+  width: 200px;
+  box-shadow: 0px 0px 0px #ccc, 0 0px 0px #eee inset;
+  border-radius:2px;
+  color: #000;
+  font-family: "Lato";
+  font-size: 13px;
+  padding-right:30px;
+  -moz-transition: padding .25s;
+  -webkit-transition: padding .25s;
+  -o-transition: padding .25s;
+  transition: padding .25s;
+}
+
+.imgSelect::-webkit-file-upload-button {
+  visibility: hidden
+}
+.imgSelect::before {
+  position: relative;
+  top: 0.2em;
+  right: 0.6em;
+  content: 'Seleccionar imagen';
+  text-align: center;;
+  width: 120px;
+  height: 32px;
+  background:#607D8B;
+  color:#fff;
+  padding:7px 10px 8px 10px;
+  border:1px solid #607D8B;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  margin:0 12px 0 0;
+  cursor:pointer;
+  border-radius: 0.2em;
+  *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+@media (max-width: 720px) {
+  .LogoHome {
+    position: relative;
+    left: 1.5em;
+    top: 2.8em;
+    width: 30%;
+    min-height: 150px;
+    background-image: url("../imgs/logos.png");
+    background-repeat: no-repeat;
+    background-size:65%;
+    -webkit-transition: 0.2s min-height ease;
+    -moz-transition: 0.2s min-height ease;
+    -o-transition: 0.2s min-height ease;
+    transition: 0.2s min-height ease;
+  }
+
+  .HomeHeader .Menu{
+      position: relative;
+      opacity: 1;
+      height: 39px;
+      text-align: center;
+      padding: 0px  ;
+      margin: 0px;
+      bottom: 5.3em;
+      right: 5em;
+  }
+
+  .Content .WelcomeImg{
+    position: absolute;
+    top: 9.4em;
+    width: 100%;
+    height: 503px;
+    background-color: #EEEEEE;
+    background-image: url("../imgs/prueba.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: background-image 0.3s linear;
+    -o-transition: background-image 0.3s linear;
+    -moz-transition: background-image 0.3s linear;
+    -webkit-transition: background-image 0.3s linear;
+  }
+
+  .Content .WelcomeImg p{
+    position: relative;
+    color: #fff;
+    font-family: "Lato" sans-serif;
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+    top: 1.8em;
+    text-shadow: 3px 0px 3px #000;
+    box-shadow: 10px 0px 10px #000;
+  }
+
+  .Content .InfoHome #time{
+    position: relative;
+    padding-right: 0.1em;
+  }
+
+  .Content .InfoHome #work{
+    position: relative;
+    padding-right: 1em;
+  }
+
+  .Content .InfoHome #place{
+    position: relative;
+  }
+
+  .Content .InfoHome .Time{
+    position: absolute;
+    top: 5em;
+    left: 4.7em;
+    width: 150px;
+    height: 150px;
+    background-image: url("../imgs/time.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+  }
+
+  .Content .InfoHome .Gear{
+    position: absolute;
+    top: 5em;
+    left: 17em;
+    width: 150px;
+    height: 150px;
+    background-image: url("../imgs/gear.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+  }
+
+  .Content .InfoHome .Place{
+    position: absolute;
+    top: 5em;
+    left: 30em;
+    width: 150px;
+    height: 150px;
+    background-image: url("../imgs/place.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+  }
+
+
+  .Content .InfoHome .Time p{
+    position: relative;
+    top: 15em;
+    left: 0.6em;
+    width: 350%;
+    text-align: justify;
+    color: black;
+    transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+  }
+
+  .Content .InfoHome .Time:hover p{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: 15em;
+    left: 0.6em;
+    width: 350%;
+    text-align: justify;
+    transition-delay:0s;
+  }
+
+  .Content .InfoHome .Gear p{
+    position: relative;
+    top: 15em;
+    right: 11.7em;
+    width: 350%;
+    text-align: justify;
+    color: black;
+    transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+  }
+
+  .Content .InfoHome .Gear:hover p{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: 15em;
+    right: 11.7em;
+    width: 350%;
+    text-align: justify;
+      transition-delay:0s;
+  }
+
+  .Content .InfoHome .Place p{
+    position: relative;
+    top: 15em;
+    right: 24.7em;
+    width: 350%;
+    text-align: justify;
+    color: black;
+    transition:visibility 0s linear 0.2s,opacity 0.2s linear;
+  }
+
+  .Content .InfoHome .Place:hover p{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: 15em;
+    right: 24.7em;
+    width: 350%;
+    text-align: justify;
+    transition-delay:0s;
+  }
+
+  }
+
+
+  .form{
+    position: absolute;
+    left: 7%;
+    top: 37em;
+    background-color: #fff;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  .FormRegistro{
+    position: absolute;
+    left: 13%;
+    top: 12em;
+    height: 340px;
+    max-width: 390px;
+    margin-top: 50px;
+    padding-left: 3em;
+    padding-right: 4.5em;
+    background-color: #EEEEEE;
+    border-radius: 0.5em;
+  }
+
+  .formProducto{
+    position: absolute;
+    left: 13%;
+    top: 12em;
+    height: 340px;
+    max-width: 390px;
+    margin-top: 50px;
+    padding-left: 3em;
+    padding-right: 4.5em;
+    background-color: #EEEEEE;
+    border-radius: 0.5em;
+  }
+
+  .imagenComprasVacias{
+    position: relative;
+    padding-left: 18.5em;
+    bottom: 1em;
+    opacity: 0.7;
+  }
+  .textoVacioCompras{
+    position: relative;
+    font-family: "Lato";
+    padding-left: 13.2em;
+    text-align: center;
+    color: #757575;
+    width: 40%;
+    font-size: 17px;
+  }
+
+  .imagenCarritoVacio{
+    position: relative;
+    padding-left: 11.5em;
+    bottom: 1em;
+  }
+
+  .textoVacio{
+    position: relative;
+    bottom: 1em;
+    font-family: "Lato";
+    padding-left: 13.2em;
+    text-align: center;
+    color: #757575;
+    width: 40%;
+    font-size: 17px;
+  }
+
+  .formActualizarUsuario{
+    position: absolute;
+    left: 14.5%;
+    top: 12em;
+    height: 350px;
+    max-width: 390px;
+    margin-top: 50px;
+    padding-left: 3em;
+    padding-right: 3.5em;
+    background-color: #EEEEEE;
+    border-radius: 0.5em;
+  }
+
+  .carritoGeneral{
+  position: relative;
+  bottom: 2em;
+  padding-left: 1.3em;
+  }
+
+  .Compras{
+    background-color: #ECEFF1;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .butonRegreso button {
+    position: relative;
+    left: 19.4em;
+    bottom: 1em;
+    font-family:"Lato";
+    text-align: center;;
+    width: 200px;
+    background: #0277BD;
+    border:1px solid #0277BD;
+    height: 32px;
+    color:#fff;
+    box-shadow:none;
+    cursor:pointer;
+    border-radius: 0.2em;
+  }
+
+  .usuarios{
+    background-color: #ECEFF1;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}

@@ -1,5 +1,4 @@
 <?php
-    require_once("libs/template_engine.php");
     $global_context = array();
     function addToContext($key,$value){
         global $global_context;
@@ -9,15 +8,6 @@
     function redirectWithMessage($message, $url="index.php"){
       echo "<script>alert('$message'); window.location='$url';</script>";
       die();
-    }
-
-    function redirectWithHtmlMessage($message, $url="index.php"){
-    $messageArray = array(
-        "message" => $message,
-        "url" => $url
-    );
-     renderizar("htmlmessage",$messageArray);
-     die();
     }
 
     function redirectToUrl($url){
@@ -47,10 +37,4 @@
 
     }
 
-    function addSelectedCmbArray($arreglo,$atributo,$valor,$selAtributo="selected"){
-        for($i = 0 ; $i < count($arreglo); $i++){
-          $arreglo[$i][$selAtributo] = ($arreglo[$i][$atributo]==$valor)?"selected":"";
-        }
-        return $arreglo;
-    }
 ?>
